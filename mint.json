@@ -30,7 +30,7 @@
   "navigation": [
     {
       "group": "Welcome",
-      "pages": []
+      "pages": ["home"]
     }
   ],
   "footerSocials": {
