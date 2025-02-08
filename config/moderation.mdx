@@ -1,0 +1,39 @@
+---
+icon: "discord"
+---
+
+<Tip>
+  Can't find this module? Make sure it is enabled on the
+  [modules](/config/modules) page.
+</Tip>
+<p>
+  The moderation module allows you to moderate Discord users effortlessly. This
+  module will work without any configuration, but it works best with it.
+</p>
+<p>
+  This module contains an example, which will show what your messages will
+  possibly look like when you moderate a user.
+</p>
+<ParamField path="Modlog Channel" type="channel">
+  The channel to send moderation logs to.
+</ParamField>
+<ParamField path="Display Case ID" type="on/off">
+  Whether we should display the case ID on the response message.
+</ParamField>
+<ParamField path="Display Reason" type="on/off">
+  Whether we should display the reason for the moderation on the response
+  message.
+</ParamField>
+<ParamField path="Delete Trigger" type="on/off">
+  Whether we should delete your message after completing the moderation.
+</ParamField>
+<ParamField path="Default Mute Length" type="duration">
+  How long a mute should be if no length is provided by the moderator.
+</ParamField>
+<ParamField path="Default Ban Length" type="duration">
+  How long a ban should be if no length is provided by the moderator.
+</ParamField>
+<ParamField path="Delete Messages Length" type="duration">
+  How far back Discord should go to delete a user's messages after they are
+  banned.
+</ParamField>

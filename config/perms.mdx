@@ -1,0 +1,21 @@
+---
+title: "Permissions"
+icon: "user"
+---
+
+<p>Permissions are done by using a role system, similar to that of Discord.</p>
+<p>
+  To create a new permission role, press the `add item` button in the top right,
+  from there, you can select the name, roles and permissions associated with the
+  role.
+</p>
+<Card title="Example">![example](/images/permission-role.png)</Card>
+<ParamField path="Name" type="string" required>
+  The name of the permission role.
+</ParamField>
+<ParamField path="Roles" type="role list" required>
+  The roles that apply to the permission role. You may select multiple.
+</ParamField>
+<ParamField path="Permissions" type="permissions" required>
+  The permissions that the permission role has.
+</ParamField>

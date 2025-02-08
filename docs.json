@@ -14,7 +14,18 @@
         "tab": "Documentation",
         "pages": [
           "/welcome/landing",
-          { "group": "Configuration", "pages": ["/config/home"] },
+          {
+            "group": "Configuration",
+            "pages": [
+              "/config/home",
+              "/config/modules",
+              "/config/perms",
+              "/config/moderation",
+              "/config/shifts",
+              "/config/roblox-moderation",
+              "/config/erlc"
+            ]
+          },
           {
             "group": "Miscellaneous",
             "pages": ["/misc/faq", "/misc/troubleshooting"]
