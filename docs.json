@@ -1,0 +1,56 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "palm",
+  "name": "Whispbot Documentation",
+  "colors": {
+    "primary": "#a33ce8",
+    "light": "#a33ce8",
+    "dark": "#a33ce8"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "pages": [
+          "/welcome/landing",
+          { "group": "Configuration", "pages": ["/config/home"] },
+          {
+            "group": "Miscellaneous",
+            "pages": ["/misc/faq", "/misc/troubleshooting"]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "pages": ["api/landing"]
+      },
+      {
+        "tab": "Changelog",
+        "pages": ["/changes/updates"]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://whisp.bot/support"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://whisp.bot/dashboard"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://whisp.bot/invite"
+    }
+  }
+}
